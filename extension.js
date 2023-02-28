@@ -1,5 +1,5 @@
 export default {
-    onload: () => {
+    onload: ({ extensionAPI }) => {
         extensionAPI.ui.commandPalette.addCommand({
             label: "Import today's xkcd comic",
             callback: () => {
