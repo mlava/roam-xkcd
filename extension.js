@@ -49,7 +49,7 @@ export default {
         };
 
         async function fetchXKCD() {
-            var url = "https://pure-wave-22121.herokuapp.com";
+            var url = "https://r-x.onrender.com";
             const response = await fetch(url, requestOptions);
             const data = await response.text();
             var responses = await JSON.parse(data);
